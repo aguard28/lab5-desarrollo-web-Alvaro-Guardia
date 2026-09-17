@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURSO DE HTML Y CSS COMPLETO - MiTube</title>
+    <meta name="author" content="Alvaro Guardia – 8-1040-1903">
+    <meta name="description" content="Página de reproducción de video tipo YouTube creada para el laboratorio de HTML5">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+
+    <header>
+        <a href="#">
+            <img src="imagenes/ag con fondo de luna.jpg" alt="Logo de MiTube" width="120">
+        </a>
+
+        <form action="#" role="search">
+            <input type="search" name="q" placeholder="Buscar" required>
+            <button type="submit" class="btn">Buscar</button>
+        </form>
+
+       <nav class="navbar">
+            <ul>
+                <li><a class="nav-link" href="#">Inicio</a></li>
+                <li><a class="nav-link" href="#">Suscripciones</a></li>
+                <li><a class="nav-link" href="#">Mi biblioteca</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <section id="video-player">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ELSm-G201Ls?si=pZYkQsqd0X2bKBxh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <p>
+                <span> 4,004,847 views  Mar 17, 2024</span> • 
+                <time datetime="2026-08-20">20 de agosto de 2026</time>
+            </p>
+
+            <div>
+                <img src="imagenes/Captura de pantalla 2026-02-25 073704.png" alt="Avatar del canal" width="48">
+                <span>Soy Dalton</span>
+                <button  type="button" class="btn">Suscribirse</button>
+            </div>
+
+            <p>
+                Un curso completo para que despegues tus conocimiento.
+            </p>
+        </section>
+
+        <section>
+            <h2>Comentarios</h2>
+
+            <form action="#">
+                <label for="comentario">Comentario</label>
+                <textarea id="comentario" name="comentario" rows="3" placeholder="Agrega un comentario público..." required></textarea>
+                <button type="submit" class="btn">Comentar</button>
+            </form>
+
+            <article class="card">
+                <img src="imagenes/Hamter.jpg" alt="Avatar de Usuario 1" width="40">
+                <span>COMELON 507</span>
+                <time datetime="2026-08-21">21 de agosto de 2026</time>
+                <p><i>Excelente video</i>, muy explicativo.</p>
+            </article>
+            <article class="card">
+                <img src="imagenes/lupa.jpg" alt="Avatar de Usuario 2" width="40">
+                <span>chorizo gandote</span>
+                <time datetime="2026-08-22">22 de agosto de 2026</time>
+                <p>Gracias por compartir esta información.</p>
+            </article>
+
+            <article class="card">
+                <img src="imagenes/money.png" alt="Avatar de Usuario 3" width="40">
+                <span></span>
+                <time datetime="2026-08-23">23 de agosto de 2026</time>
+                <p>Tengo una duda con el paso tres, ¿podrías aclararlo?</p>
+            </article>
+               <article class="card">
+                <img src="imagenes/shocked hampter.jpg" alt="Avatar de Usuario 3" width="40">
+                <span>Usuario 3</span>
+                <time datetime="2026-08-23">23 de agosto de 2026</time>
+                <p>Tengo una duda con el paso tres, ¿podrías aclararlo?</p>
+            </article>
+        </section>
+    </main>
+
+    <aside  id="sugeridos">
+        <h2>Videos sugeridos</h2>
+
+        <article>
+            <a href="#">
+                <img src="imagenes/asombro.jpg" alt="Miniatura del video" width="168" style="width:100px;height:100px;">
+                <h3>Como hacer un barco de papel</h3>
+            </a>
+            <p>ORIGAMI ORIGINAL</p>
+        </article>
+
+        <article>
+            <a href="#">
+                <img src="imagenes/Soldier Hamp.jpg"  alt="VIDEO 1" style="width:100px;height:100px;">
+                <h3>Necesitamos Muchos Amigos?</h3>
+            </a>
+            <p>Psicologia al alcanze</p>
+        </article>
+
+      
+        </article>
+    </aside>
+
+    <footer id="pie">
+        <ul>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Prensa</a></li>
+            <li><a href="#">Copyright</a></li>
+            <li><a href="#">Términos</a></li>
+            <li><a href="#">Privacidad</a></li>
+        </ul>
+        <p>&copy; 2026 MiTube</p>
+    </footer>
+
+</body>
+</html>
